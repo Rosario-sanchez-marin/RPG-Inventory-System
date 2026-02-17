@@ -1,2 +1,7 @@
-prueba 1
+[ 
+  {
+    'name': 'Rosario',
+    'birthdate':12/16/2009,
+  'address':'Homex'
+  }
 
