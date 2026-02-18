@@ -1,48 +1,47 @@
 {
-  "name": "Camila",
-  "surnames": "Virgen Juárez",
-   "birth_date": "02-16-2009",
- 
+  "firstName": "Camila",
+  "lastName": "Virgen Juárez",
+  "birthDate": "02-16-2009",
   "email": "virgenjuarezcamilam3s2@gmail.com",
-  
   "address": {
     "street": "21st Street, 23rd Avenue",
     "city": "Cordoba",
-    "state": "Veracruz",
-   
+    "state": "Veracruz"
   },
- 
   "gender": "female",
   "occupation": "Student",
-  "interests": ["Programming", "painting", "knitting", "drawing"]
-},
-
-
+  "interests": [
+    "Programming",
+    "painting",
+    "knitting",
+    "drawing"
+  ],
   "friends": [
     {
-      "name": "Maria del Rosario",
-      "surnames": "Sanchez Marín",
-       "birth_date": "12-16-2009",
-
-      
-      "email": "sanchezmarinrosariom3s2@gmail.com",
-      "city": "Cordoba",
-      "interests": ["lettering", "photography", "basketball"]
+      "firstName": "Maria",
+      "middleName": "Rosario",
+     "lastName":  "Sanchez Marín",
+       "birthDate": "12-16-2009",
+        "email": "sanchezmarinrosariom3s2@gmail.com",
+         "city": "Cordoba",
+          "interests": ["basketball", "lettering", "photograph"]
     },
     {
-    "name": "Fatima Yocelin",
-      "surnames": "Ramirez Lopez",
-       "birth_date": "01-05-2009",
-
-      
-      "email": "ramirezlopezfatimayocelinm3s2@gmail.com",
-      "city": "Cordoba",
-      "interests": ["Drawing", "taking care of pets","sleeping"] 
+      "firstName": "Fatima",
+       "lastName":  "Yocelin",
+       "birthDate": "01-05-2009",
+        "email": "ramirezlopezfatimayocelinm3s2@gmail.com",
+         "city": "Cordoba",
+          "interests": ["sleep", "Pet care", "draw"]
     },
     {
-     
-  
-}
-
-
+    "firstName": "Maria",
+      "middleName": "Argel",
+       "lastName":  "Rueda Jaime",
+       "birthDate": "04-07-2009",
+        "email": "ruedajaimeargelm3s2@gmail.com",
+         "city": "orizaba",
+          "interests": ["play soccer", "eat", "have a picnic"]
+    }
+  ]
 }
