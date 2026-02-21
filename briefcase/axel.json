@@ -14,9 +14,18 @@
     "music",
     "writing",
     "tracking",
-  ],
   "friends": [
     {
+      "firstName": "yoanna",
+      "middleName": "",
+     "lastName":  "Valiente Marin",
+       "birthDate": "01-03-2009",
+        "email": "attevaliente@gmail.com",
+         "city": "Cordoba",
+      "gender": "female",
+          "interests": ["music", "travel", "nostalgia"]
+    },
+    
 
     
   
