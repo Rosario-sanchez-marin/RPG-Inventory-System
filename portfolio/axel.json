@@ -36,5 +36,18 @@
       "gender": "female",
        "hobbies,": ["music", "skate", "draw", "ice skating"]
        },
+    {
+      "firstName": "Siham",
+      "middleName": "Sahar",
+      "lastName":  "Nixticapa Ibarra",
+      "birthDate": "23-05-2009",
+      "email": "Sihamnixticapa@gmail.com",
+       "city": "Puebla",
+      "gender": "female",
+       "hobbies,": ["play games", "weave", "the music"]
+    }
+  ]
+}
+      
        
  
