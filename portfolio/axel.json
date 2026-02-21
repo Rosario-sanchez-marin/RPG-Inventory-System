@@ -24,7 +24,17 @@
         "email": "attevaliente@gmail.com",
          "city": "Cordoba",
       "gender": "female",
-          "interests": ["music", "travel", "nostalgia"]
+          "hobbies,": ["music", "travel", "nostalgia"]
        },
-     ]
+     {
+      "firstName": "Valentina",
+      "middleName": "",
+      "lastName":  "Lemus Moctezuma",
+      "birthDate": "16-07-2010",
+      "email": "lenny1608@gmail.com",
+       "city": "CDMX",
+      "gender": "female",
+       "hobbies,": ["music", "skate", "draw", "ice skating"]
+       },
+       
  
