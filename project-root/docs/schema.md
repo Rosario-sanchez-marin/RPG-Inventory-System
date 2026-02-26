@@ -33,13 +33,14 @@ erDiagram
 
     MAP {
         int id
-        string name player
+        string name
         string region
         string x-coordinate
         string y-coordinate
     }
     }
 ```
+
 
 
 
