@@ -8,11 +8,12 @@ async function main() {
     await client.connect();
     console.log("Conectado a MongoDB Atlas");
 
-    const db = client.db("miProyectoDB");
+    const db = client.db("RPGInventorySystem");
 
-    await db.createCollection("usuarios");
-    await db.createCollection("productos");
-    await db.createCollection("pedidos");
+    await db.createCollection("players");
+    await db.createCollection("inventories");
+    await db.createCollection("items");
+    await db.createCollection("maps");
 
     console.log("Colecciones creadas exitosamente");
   } finally {
@@ -21,4 +22,48 @@ async function main() {
 }
 
 main().catch(console.error);
+# RPG Inventory System
+
+Este proyecto inicializa un sistema de inventario RPG en MongoDB Atlas.
+
+## Diagrama de Relaciones
+```mermaid
+---
+title:RPG Inventory System 
+---
+erDiagram
+    PLAYER ||--o{ INVENTORY : owns
+    INVENTORY ||--o{ ITEM : contains
+    MAP ||--o{ ITEM : locates
+    MAP ||--o{ PLAYER : hosts
+
+    PLAYER {
+        int id
+        string name
+        int level
+    }
+
+    INVENTORY {
+        int id
+        int capacity
+    }
+
+    ITEM {
+        int id
+        string type
+        string name
+        int damage
+        int durability
+        string effect
+        int duration
+    }
+
+    MAP {
+        int id
+        string name
+        string region
+        string x-coordinate
+        string y-coordinate
+    }
+
 
