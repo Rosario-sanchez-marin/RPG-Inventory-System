@@ -17,7 +17,7 @@ erDiagram
         string email
         int level
         int password
-        
+        id map fk
     }
 
     INVENTORY {
