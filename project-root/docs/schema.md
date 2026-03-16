@@ -13,6 +13,7 @@ erDiagram
     PLAYER {
         int id
         string name
+        string email
         int level
     }
 
