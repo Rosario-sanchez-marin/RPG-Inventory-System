@@ -19,7 +19,7 @@ erDiagram
         string email
         int level
         int password
-        id map fk
+        
     }
 
     INVENTORY {
@@ -38,7 +38,7 @@ erDiagram
     }
 
     MAP {
-        int id map pk
+        int id
         string name
         string region
         string x-coordinate
