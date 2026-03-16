@@ -9,7 +9,7 @@ erDiagram
   MAP ||--o{ PLAYER : hosts
 
   PLAYER {
-    int id PK
+    int id player PK
     string name
     date birthdate
     string email
@@ -19,13 +19,13 @@ erDiagram
   }
 
   INVENTORY {
-    int id PK
+    int id map PK
     int capacity
     int player_id FK
   }
 
   ITEM {
-    int id PK
+    int id player PK
     string type
     string name
     int damage
@@ -37,7 +37,7 @@ erDiagram
   }
 
   MAP {
-    int id PK
+    int id map PK
     string name
     string region
     string x_coordinate
