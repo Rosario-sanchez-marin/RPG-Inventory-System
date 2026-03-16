@@ -13,8 +13,11 @@ erDiagram
     PLAYER {
         int id
         string name
+        int birthdate 
         string email
         int level
+        int password
+        
     }
 
     INVENTORY {
