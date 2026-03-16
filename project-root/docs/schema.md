@@ -1,9 +1,6 @@
 # Diagrama de relaciones - RPG Inventory System
 
-```mermaid
-
-
-    
+```mermaid   
 title:RPG Inventory System 
 ---
 erDiagram
