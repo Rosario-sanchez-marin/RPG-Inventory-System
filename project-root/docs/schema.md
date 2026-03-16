@@ -2,8 +2,8 @@
 
 ```mermaid
 
-    id INT PRIMARY KEY,
-    -
+
+    
 title:RPG Inventory System 
 ---
 erDiagram
