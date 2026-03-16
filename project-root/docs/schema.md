@@ -19,7 +19,7 @@ erDiagram
   }
 
   INVENTORY {
-    int id map PK
+    int id PK
     int capacity
     int player_id FK
   }
