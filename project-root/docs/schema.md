@@ -38,7 +38,7 @@ erDiagram
     }
 
     MAP {
-        int id
+        int id map pk
         string name
         string region
         string x-coordinate
