@@ -20,7 +20,7 @@ erDiagram
 
   INVENTORY {
     int id PK
-    int capacity
+    int capacity 
     int player_id FK
   }
 
