@@ -9,7 +9,7 @@ erDiagram
   MAP ||--o{ PLAYER : hosts
 
   PLAYER {
-    int id player PK
+    int id PK
     string name
     date birthdate
     string email
