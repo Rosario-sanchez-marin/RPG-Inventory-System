@@ -1,47 +1,45 @@
 # Diagrama de relaciones - RPG Inventory System
 
 ```mermaid
----
-title:RPG Inventory System 
----
-erDiagram
-    PLAYER ||--o{ INVENTORY : owns
-    INVENTORY ||--o{ ITEM : contains
-    MAP ||--o{ ITEM : locates
-    MAP ||--o{ PLAYER : hosts
+CREATE TABLE MAP (
+    id INT PRIMARY KEY,
+    name VARCHAR(100),
+    region VARCHAR(100),
+    x_coordinate VARCHAR(50),
+    y_coordinate VARCHAR(50)
+);
 
-    PLAYER {
-        int id
-        string name
-        int birthdate 
-        string email
-        int level
-        int password
-        id map fk
-    }
+CREATE TABLE PLAYER (
+    id INT PRIMARY KEY,
+    name VARCHAR(100),
+    birthdate DATE,
+    email VARCHAR(100),
+    level INT,
+    password VARCHAR(100),
+    map_id INT,
+    FOREIGN KEY (map_id) REFERENCES MAP(id)
+);
 
-    INVENTORY {
-        int id
-        int capacity
-    }
+CREATE TABLE INVENTORY (
+    id INT PRIMARY KEY,
+    capacity INT,
+    player_id INT,
+    FOREIGN KEY (player_id) REFERENCES PLAYER(id)
+);
 
-    ITEM {
-        int id
-        string type
-        string name
-        int damage
-        int durability
-        string effect
-        int duration
-    }
-
-    MAP {
-        int id
-        string name
-        string region
-        string x-coordinate
-        string y-coordinate
-    }
+CREATE TABLE ITEM (
+    id INT PRIMARY KEY,
+    type VARCHAR(50),
+    name VARCHAR(100),
+    damage INT,
+    durability INT,
+    effect VARCHAR(100),
+    duration INT,
+    inventory_id INT,
+    map_id INT,
+    FOREIGN KEY (inventory_id) REFERENCES INVENTORY(id),
+    FOREIGN KEY (map_id) REFERENCES MAP(id)
+);
     
 ```
 
