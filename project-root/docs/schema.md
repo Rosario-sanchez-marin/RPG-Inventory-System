@@ -1,7 +1,7 @@
 # Diagrama de relaciones - RPG Inventory System
 
 ```mermaid   
-```mermaid
+
 erDiagram
   PLAYER ||--o{ INVENTORY : owns
   INVENTORY ||--o{ ITEM : contains
