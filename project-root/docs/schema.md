@@ -9,35 +9,39 @@ erDiagram
   MAP ||--o{ PLAYER : hosts
 
   PLAYER {
-    int id
+    int id PK
     string name
-    int birthdate
+    date birthdate
     string email
     int level
-    int password
+    string password
+    int map_id FK
   }
 
   INVENTORY {
-    int id
+    int id PK
     int capacity
+    int player_id FK
   }
 
   ITEM {
-    int id
+    int id PK
     string type
     string name
     int damage
     int durability
     string effect
     int duration
+    int inventory_id FK
+    int map_id FK
   }
 
   MAP {
-    int id
+    int id PK
     string name
     string region
-    string x-coordinate
-    string y-coordinate
+    string x_coordinate
+    string y_coordinate
   }
 ```
 
