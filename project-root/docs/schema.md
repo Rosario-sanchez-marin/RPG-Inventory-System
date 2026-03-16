@@ -25,7 +25,7 @@ erDiagram
   }
 
   ITEM {
-    int id player PK
+    int id PK
     string type
     string name
     int damage
