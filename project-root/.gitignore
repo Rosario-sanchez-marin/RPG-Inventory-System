@@ -1,0 +1,16 @@
+# Ignore node dependencies
+node_modules/
+
+# Ignore environment configuration
+.env
+config.json
+
+# Ignore database dumps
+dump/
+backup/
+
+# Ignore log files
+*.log
+
+# Ignore macOS system files
+.DS_Store
