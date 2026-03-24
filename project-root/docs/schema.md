@@ -8,29 +8,18 @@ erDiagram
         string playerName
         int level
     }
-    ITEM {
+    INVENTORY {
         string item_id PK
         string type
-        string player_id FK
         int quantity
-    }
-    SWORD {
         int damage
         int durability
-    }
-    POTION {
         string effect
         int duration
-    }
-    MAP {
         string coordinates
     }
 
-    PLAYER ||--o{ ITEM : has
-    ITEM ||--|{ SWORD : is_a
-    ITEM ||--|{ POTION : is_a
-    ITEM ||--|{ MAP : is_a
-
+    PLAYER ||--o{ INVENTORY : has
 
 ```
 
