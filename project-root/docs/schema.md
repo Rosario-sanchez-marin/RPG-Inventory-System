@@ -4,11 +4,14 @@
 
 erDiagram
     PLAYER {
+        string player_id PK
         string playerName
         int level
     }
     ITEM {
+        string item_id PK
         string type
+        string player_id FK
     }
     SWORD {
         int damage
