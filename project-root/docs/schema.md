@@ -16,7 +16,6 @@ erDiagram
         int durability
         string effect
         int duration
-        string coordinates
     }
 
     PLAYER ||--o{ INVENTORY : has
