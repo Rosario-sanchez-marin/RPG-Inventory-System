@@ -12,6 +12,7 @@ erDiagram
         string item_id PK
         string type
         string player_id FK
+        int quantity
     }
     SWORD {
         int damage
@@ -29,6 +30,7 @@ erDiagram
     ITEM ||--|{ SWORD : is_a
     ITEM ||--|{ POTION : is_a
     ITEM ||--|{ MAP : is_a
+
 
 ```
 
