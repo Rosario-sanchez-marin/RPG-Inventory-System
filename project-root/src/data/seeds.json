@@ -1,787 +1,666 @@
 [
   {
-    "map_id": 1,
-    "map_name": "Jatinagara Kulon",
-    "region": "north",
-    "x_coordinate": -2,
-    "y_coordinate": 62,
-    "player_id": 1,
-    "Username": "ctrillo0",
-    "level": 48,
-    "active_status": true,
+    "username": "Aris_VientoAzul",
+    "email": "aris@nexus.com",
+    "password_hash": "pass_991",
+    "current_level": 2,
+    "max_level_reached": 3,
     "inventory": [
-      {
-        "item_id": 1,
-        "type_item": "weapon",
-        "item_name": "iron_sword",
-        "stats": { "damage": 6, "durability": 250 }
-      },
-      {
-        "item_id": 2,
-        "type_item": "food",
-        "item_name": "golden_apple",
-        "stats": { "effect": "regeneration", "duration": 30 }
-      }
+      { "item_id": "boots_01", "name": "Botas de Explorador", "type": "armor", "stats": { "speed": 5 } },
+      { "item_id": "key_01", "name": "Llave de la Esperanza", "type": "key", "stats": { "fragment": 1 } }
     ]
   },
-
   {
-    "map_id": 2,
-    "map_name": "Pamplona/Iruña",
-    "region": "east",
-    "x_coordinate": 64,
-    "y_coordinate": -100,
-    "player_id": 2,
-    "Username": "saltree1",
-    "level": 35,
-    "active_status": false,
+    "username": "Torin_El_Gris",
+    "email": "torin@nexus.com",
+    "password_hash": "pass_992",
+    "current_level": 1,
+    "max_level_reached": 1,
     "inventory": [
-      {
-        "item_id": 1,
-        "type_item": "tool",
-        "item_name": "diamond_pickaxe",
-        "stats": { "efficiency": 5, "durability": 1561 }
-      }
+      { "item_id": "map_01", "name": "Mapa del Jard�n", "type": "misc", "stats": { "vision": 10 } }
     ]
   },
-
   {
-    "map_id": 3,
-    "map_name": "Sonzacate",
-    "region": "asia",
-    "x_coordinate": 227,
-    "y_coordinate": 74,
-    "player_id": 3,
-    "Username": "fmountjoy2",
-    "level": 23,
-    "active_status": false,
+    "username": "Xena_Guerrera",
+    "email": "xena@nexus.com",
+    "password_hash": "pass_993",
+    "current_level": 7,
+    "max_level_reached": 8,
     "inventory": [
-      {
-        "item_id": 1,
-        "type_item": "armor",
-        "item_name": "leather_chestplate",
-        "stats": { "protection": 3, "durability": 80 }
-      }
+      { "item_id": "sword_010", "name": "Filo de Cristal", "type": "sword", "stats": { "damage": 35 } },
+      { "item_id": "key_07", "name": "Llave del Pesar", "type": "key", "stats": { "fragment": 7 } }
     ]
   },
-
   {
-    "map_id": 4,
-    "map_name": "Hushan",
-    "region": "north",
-    "x_coordinate": 70,
-    "y_coordinate": 82,
-    "player_id": 4,
-    "Username": "apickin3",
-    "level": 75,
-    "active_status": false,
+    "username": "Bardo_Sin_Voz",
+    "email": "bardo@nexus.com",
+    "password_hash": "pass_994",
+    "current_level": 4,
+    "max_level_reached": 4,
     "inventory": [
-      {
-        "item_id": 1,
-        "type_item": "weapon",
-        "item_name": "diamond_sword",
-        "stats": { "damage": 7, "durability": 1561 }
-      }
+      { "item_id": "flute_01", "name": "Flauta de Madera", "type": "tool", "stats": { "charm": 15 } }
     ]
   },
-
   {
-    "map_id": 5,
-    "map_name": "Kurungannyawa",
-    "region": "america",
-    "x_coordinate": 68,
-    "y_coordinate": 264,
-    "player_id": 5,
-    "Username": "sbresman4",
-    "level": 18,
-    "active_status": false,
+    "username": "Kira_Sombras",
+    "email": "kira@nexus.com",
+    "password_hash": "pass_995",
+    "current_level": 9,
+    "max_level_reached": 9,
     "inventory": [
-      {
-        "item_id": 1,
-        "type_item": "food",
-        "item_name": "cooked_beef",
-        "stats": { "effect": "heal", "duration": 8 }
-      }
+      { "item_id": "dagger_05", "name": "Daga de la Atalaya", "type": "weapon", "stats": { "crit": 20 } },
+      { "item_id": "key_09", "name": "Llave del Sacrificio", "type": "key", "stats": { "fragment": 9 } }
     ]
   },
-
   {
-    "map_id": 6,
-    "map_name": "Kang",
-    "region": "america",
-    "x_coordinate": 130,
-    "y_coordinate": 35,
-    "player_id": 6,
-    "Username": "kketchell5",
-    "level": 46,
-    "active_status": false,
+    "username": "Ragnar_L",
+    "email": "ragnar@nexus.com",
+    "password_hash": "pass_996",
+    "current_level": 5,
+    "max_level_reached": 5,
     "inventory": [
-      {
-        "item_id": 1,
-        "type_item": "weapon",
-        "item_name": "netherite_axe",
-        "stats": { "damage": 10, "durability": 2031 }
-      }
+      { "item_id": "shield_03", "name": "Pavesa de Hierro", "type": "shield", "stats": { "def": 25 } }
     ]
   },
-
   {
-    "map_id": 7,
-    "map_name": "Gaopeng",
-    "region": "east",
-    "x_coordinate": 129,
-    "y_coordinate": 215,
-    "player_id": 7,
-    "Username": "cjefferson6",
-    "level": 53,
-    "active_status": true,
+    "username": "Enya_Luz",
+    "email": "enya@nexus.com",
+    "password_hash": "pass_997",
+    "current_level": 1,
+    "max_level_reached": 2,
     "inventory": [
-      {
-        "item_id": 1,
-        "type_item": "tool",
-        "item_name": "iron_shovel",
-        "stats": { "efficiency": 2, "durability": 250 }
-      }
+      { "item_id": "potion_05", "name": "Roc�o de la Reina", "type": "potion", "stats": { "heal": 100 } }
     ]
   },
-
   {
-    "map_id": 8,
-    "map_name": "Shuangpu",
-    "region": "asia",
-    "x_coordinate": -75,
-    "y_coordinate": 19,
-    "player_id": 8,
-    "Username": "tmaingot7",
-    "level": 81,
-    "active_status": true,
+    "username": "Finn_El_Pillo",
+    "email": "finn@nexus.com",
+    "password_hash": "pass_998",
+    "current_level": 3,
+    "max_level_reached": 3,
     "inventory": [
-      {
-        "item_id": 1,
-        "type_item": "weapon",
-        "item_name": "bow",
-        "stats": { "damage": 9, "durability": 384 }
-      }
+      { "item_id": "key_02", "name": "Llave del Valor", "type": "key", "stats": { "fragment": 2 } },
+      { "item_id": "key_03", "name": "Llave del Cristal", "type": "key", "stats": { "fragment": 3 } }
     ]
   },
-
   {
-    "map_id": 9,
-    "map_name": "Gayamdesa",
-    "region": "south",
-    "x_coordinate": 171,
-    "y_coordinate": 95,
-    "player_id": 9,
-    "Username": "skillingsworth8",
-    "level": 98,
-    "active_status": true,
+    "username": "Odin_Raven",
+    "email": "odin@nexus.com",
+    "password_hash": "pass_999",
+    "current_level": 6,
+    "max_level_reached": 7,
     "inventory": [
-      {
-        "item_id": 1,
-        "type_item": "armor",
-        "item_name": "netherite_helmet",
-        "stats": { "protection": 3, "durability": 407 }
-      }
+      { "item_id": "helm_02", "name": "Yelmo de Cuervo", "type": "armor", "stats": { "def": 12 } }
     ]
   },
-
   {
-    "map_id": 10,
-    "map_name": "Huangludian",
-    "region": "oceania",
-    "x_coordinate": 262,
-    "y_coordinate": 238,
-    "player_id": 10,
-    "Username": "jkilbey9",
-    "level": 90,
-    "active_status": true,
+    "username": "Luna_Eclipse",
+    "email": "luna@nexus.com",
+    "password_hash": "pass_001",
+    "current_level": 4,
+    "max_level_reached": 5,
     "inventory": [
-      {
-        "item_id": 1,
-        "type_item": "food",
-        "item_name": "bread",
-        "stats": { "effect": "heal", "duration": 5 }
-      }
+      { "item_id": "key_05", "name": "Llave del Silencio", "type": "key", "stats": { "fragment": 5 } }
     ]
   },
-
   {
-    "map_id": 11,
-    "map_name": "Chengshan",
-    "region": "east",
-    "x_coordinate": 240,
-    "y_coordinate": 169,
-    "player_id": 11,
-    "Username": "gyaldrena",
-    "level": 41,
-    "active_status": true,
+    "username": "Solaire_Praise",
+    "email": "sun@nexus.com",
+    "password_hash": "pass_002",
+    "current_level": 1,
+    "max_level_reached": 1,
     "inventory": [
-      { "item_id": 1, "type_item": "weapon", "item_name": "stone_sword", "stats": { "damage": 5, "durability": 131 } }
+      { "item_id": "sun_medal", "name": "Medalla Solar", "type": "relic", "stats": { "faith": 50 } }
     ]
   },
-
   {
-    "map_id": 12,
-    "map_name": "Kolonia Town",
-    "region": "east",
-    "x_coordinate": -48,
-    "y_coordinate": 286,
-    "player_id": 12,
-    "Username": "mnuschab",
-    "level": 91,
-    "active_status": true,
+    "username": "Tifa_Nexus",
+    "email": "tifa@nexus.com",
+    "password_hash": "pass_003",
+    "current_level": 8,
+    "max_level_reached": 8,
     "inventory": [
-      { "item_id": 1, "type_item": "material", "item_name": "diamond", "stats": { "stack_size": 64, "renewable": false } }
+      { "item_id": "gloves_01", "name": "Guantes de Cuero", "type": "weapon", "stats": { "str": 15 } },
+      { "item_id": "key_08", "name": "Llave de la Biblioteca", "type": "key", "stats": { "fragment": 8 } }
     ]
   },
-
   {
-    "map_id": 13,
-    "map_name": "Lidköping",
-    "region": "west",
-    "x_coordinate": 150,
-    "y_coordinate": 120,
-    "player_id": 13,
-    "Username": "user13",
-    "level": 15,
-    "active_status": true,
+    "username": "Vito_Corrupto",
+    "email": "vito@nexus.com",
+    "password_hash": "pass_004",
+    "current_level": 2,
+    "max_level_reached": 2,
     "inventory": [
-      { "item_id": 1, "type_item": "food", "item_name": "apple", "stats": { "effect": "heal", "duration": 4 } }
+      { "item_id": "dark_shard", "name": "Fragmento Oscuro", "type": "misc", "stats": { "corruption": 5 } }
     ]
   },
-
   {
-    "map_id": 14,
-    "map_name": "Paris",
-    "region": "west",
-    "x_coordinate": 48,
-    "y_coordinate": 2,
-    "player_id": 14,
-    "Username": "user14",
-    "level": 60,
-    "active_status": false,
+    "username": "Ciri_Zireael",
+    "email": "ciri@nexus.com",
+    "password_hash": "pass_005",
+    "current_level": 10,
+    "max_level_reached": 10,
     "inventory": [
-      { "item_id": 1, "type_item": "weapon", "item_name": "iron_axe", "stats": { "damage": 9, "durability": 250 } }
+      { "item_id": "swallow_sword", "name": "Zireael", "type": "sword", "stats": { "damage": 99 } }
     ]
   },
-
   {
-    "map_id": 15,
-    "map_name": "Tokyo",
-    "region": "east",
-    "x_coordinate": 35,
-    "y_coordinate": 139,
-    "player_id": 15,
-    "Username": "user15",
-    "level": 88,
-    "active_status": true,
-    "inventory": [
-      { "item_id": 1, "type_item": "armor", "item_name": "gold_leggings", "stats": { "protection": 3, "durability": 105 } }
-    ]
-  },
-
-  {
-    "map_id": 16,
-    "map_name": "Madrid",
-    "region": "west",
-    "x_coordinate": 40,
-    "y_coordinate": -3,
-    "player_id": 16,
-    "Username": "user16",
-    "level": 42,
-    "active_status": true,
-    "inventory": [
-      { "item_id": 1, "type_item": "tool", "item_name": "fishing_rod", "stats": { "durability": 64 } }
-    ]
-  },
-
-  {
-    "map_id": 17,
-    "map_name": "Berlin",
-    "region": "west",
-    "x_coordinate": 52,
-    "y_coordinate": 13,
-    "player_id": 17,
-    "Username": "user17",
-    "level": 33,
-    "active_status": false,
-    "inventory": [
-      { "item_id": 1, "type_item": "material", "item_name": "cobblestone", "stats": { "stack_size": 64, "renewable": true } }
-    ]
-  },
-
-  {
-    "map_id": 18,
-    "map_name": "Rome",
-    "region": "west",
-    "x_coordinate": 41,
-    "y_coordinate": 12,
-    "player_id": 18,
-    "Username": "user18",
-    "level": 51,
-    "active_status": true,
-    "inventory": [
-      { "item_id": 1, "type_item": "weapon", "item_name": "crossbow", "stats": { "damage": 11, "durability": 326 } }
-    ]
-  },
-
-  {
-    "map_id": 19,
-    "map_name": "Cairo",
-    "region": "south",
-    "x_coordinate": 30,
-    "y_coordinate": 31,
-    "player_id": 19,
-    "Username": "user19",
-    "level": 22,
-    "active_status": true,
-    "inventory": [
-      { "item_id": 1, "type_item": "food", "item_name": "carrot", "stats": { "effect": "heal", "duration": 3 } }
-    ]
-  },
-
-  {
-    "map_id": 20,
-    "map_name": "Sydney",
-    "region": "oceania",
-    "x_coordinate": -33,
-    "y_coordinate": 151,
-    "player_id": 20,
-    "Username": "user20",
-    "level": 70,
-    "active_status": false,
-    "inventory": [
-      { "item_id": 1, "type_item": "armor", "item_name": "diamond_boots", "stats": { "protection": 3, "durability": 429 } }
-    ]
-  },
-
-  {
-    "map_id": 21,
-    "map_name": "New York",
-    "region": "north",
-    "x_coordinate": 40,
-    "y_coordinate": -74,
-    "player_id": 21,
-    "Username": "user21",
-    "level": 95,
-    "active_status": true,
-    "inventory": [
-      { "item_id": 1, "type_item": "weapon", "item_name": "netherite_sword", "stats": { "damage": 8, "durability": 2031 } }
-    ]
-  },
-
-  {
-    "map_id": 22,
-    "map_name": "London",
-    "region": "west",
-    "x_coordinate": 51,
-    "y_coordinate": 0,
-    "player_id": 22,
-    "Username": "user22",
-    "level": 44,
-    "active_status": true,
-    "inventory": [
-      { "item_id": 1, "type_item": "material", "item_name": "oak_log", "stats": { "stack_size": 64, "renewable": true } }
-    ]
-  },
-
-  {
-    "map_id": 23,
-    "map_name": "Moscow",
-    "region": "east",
-    "x_coordinate": 55,
-    "y_coordinate": 37,
-    "player_id": 23,
-    "Username": "user23",
-    "level": 66,
-    "active_status": true,
-    "inventory": [
-      { "item_id": 1, "type_item": "weapon", "item_name": "iron_pickaxe", "stats": { "damage": 4, "durability": 250 } }
-    ]
-  },
-
-  {
-    "map_id": 24,
-    "map_name": "Beijing",
-    "region": "east",
-    "x_coordinate": 39,
-    "y_coordinate": 116,
-    "player_id": 24,
-    "Username": "user24",
-    "level": 12,
-    "active_status": false,
-    "inventory": [
-      { "item_id": 1, "type_item": "food", "item_name": "baked_potato", "stats": { "effect": "heal", "duration": 5 } }
-    ]
-  },
-
-  {
-    "map_id": 25,
-    "map_name": "Seoul",
-    "region": "east",
-    "x_coordinate": 37,
-    "y_coordinate": 126,
-    "player_id": 25,
-    "Username": "user25",
-    "level": 58,
-    "active_status": true,
-    "inventory": [
-      { "item_id": 1, "type_item": "armor", "item_name": "gold_helmet", "stats": { "protection": 2, "durability": 77 } }
-    ]
-  },
-
-  {
-    "map_id": 26,
-    "map_name": "Bangkok",
-    "region": "asia",
-    "x_coordinate": 13,
-    "y_coordinate": 100,
-    "player_id": 26,
-    "Username": "user26",
-    "level": 27,
-    "active_status": true,
-    "inventory": [
-      { "item_id": 1, "type_item": "tool", "item_name": "compass", "stats": { "renewable": true } }
-    ]
-  },
-
-  {
-    "map_id": 27,
-    "map_name": "Mumbai",
-    "region": "asia",
-    "x_coordinate": 19,
-    "y_coordinate": 72,
-    "player_id": 27,
-    "Username": "user27",
-    "level": 49,
-    "active_status": false,
-    "inventory": [
-      { "item_id": 1, "type_item": "food", "item_name": "melon_slice", "stats": { "effect": "heal", "duration": 2 } }
-    ]
-  },
-
-  {
-    "map_id": 28,
-    "map_name": "Dubai",
-    "region": "asia",
-    "x_coordinate": 25,
-    "y_coordinate": 55,
-    "player_id": 28,
-    "Username": "user28",
-    "level": 82,
-    "active_status": true,
-    "inventory": [
-      { "item_id": 1, "type_item": "material", "item_name": "gold_ingot", "stats": { "stack_size": 64, "renewable": false } }
-    ]
-  },
-
-  {
-    "map_id": 29,
-    "map_name": "Istanbul",
-    "region": "east",
-    "x_coordinate": 41,
-    "y_coordinate": 28,
-    "player_id": 29,
-    "Username": "user29",
-    "level": 37,
-    "active_status": true,
-    "inventory": [
-      { "item_id": 1, "type_item": "weapon", "item_name": "shield", "stats": { "durability": 336 } }
-    ]
-  },
-
-  {
-    "map_id": 30,
-    "map_name": "Lima",
-    "region": "america",
-    "x_coordinate": -12,
-    "y_coordinate": -77,
-    "player_id": 30,
-    "Username": "user30",
-    "level": 19,
-    "active_status": true,
-    "inventory": [
-      { "item_id": 1, "type_item": "food", "item_name": "steak", "stats": { "effect": "heal", "duration": 8 } }
-    ]
-  },
-
-  {
-    "map_id": 31,
-    "map_name": "Bogota",
-    "region": "america",
-    "x_coordinate": 4,
-    "y_coordinate": -74,
-    "player_id": 31,
-    "Username": "user31",
-    "level": 63,
-    "active_status": false,
-    "inventory": [
-      { "item_id": 1, "type_item": "material", "item_name": "coal", "stats": { "stack_size": 64, "renewable": true } }
-    ]
-  },
-
-  {
-    "map_id": 32,
-    "map_name": "Santiago",
-    "region": "america",
-    "x_coordinate": -33,
-    "y_coordinate": -70,
-    "player_id": 32,
-    "Username": "user32",
-    "level": 74,
-    "active_status": true,
-    "inventory": [
-      { "item_id": 1, "type_item": "weapon", "item_name": "diamond_axe", "stats": { "damage": 9, "durability": 1561 } }
-    ]
-  },
-
-  {
-    "map_id": 33,
-    "map_name": "Oslo",
-    "region": "west",
-    "x_coordinate": 59,
-    "y_coordinate": 10,
-    "player_id": 33,
-    "Username": "user33",
-    "level": 52,
-    "active_status": true,
-    "inventory": [
-      { "item_id": 1, "type_item": "tool", "item_name": "spyglass", "stats": { "renewable": true } }
-    ]
-  },
-
-  {
-    "map_id": 34,
-    "map_name": "Stockholm",
-    "region": "west",
-    "x_coordinate": 59,
-    "y_coordinate": 18,
-    "player_id": 34,
-    "Username": "user34",
-    "level": 41,
-    "active_status": false,
-    "inventory": [
-      { "item_id": 1, "type_item": "armor", "item_name": "iron_leggings", "stats": { "protection": 5, "durability": 225 } }
-    ]
-  },
-
-  {
-    "map_id": 35,
-    "map_name": "Helsinki",
-    "region": "west",
-    "x_coordinate": 60,
-    "y_coordinate": 24,
-    "player_id": 35,
-    "Username": "user35",
-    "level": 29,
-    "active_status": true,
-    "inventory": [
-      { "item_id": 1, "type_item": "food", "item_name": "sweet_berries", "stats": { "effect": "heal", "duration": 2 } }
-    ]
-  },
-
-  {
-    "map_id": 36,
-    "map_name": "Athens",
-    "region": "east",
-    "x_coordinate": 37,
-    "y_coordinate": 23,
-    "player_id": 36,
-    "Username": "user36",
-    "level": 67,
-    "active_status": true,
-    "inventory": [
-      { "item_id": 1, "type_item": "tool", "item_name": "clock", "stats": { "renewable": true } }
-    ]
-  },
-
-  {
-    "map_id": 37,
-    "map_name": "Lisbon",
-    "region": "west",
-    "x_coordinate": 38,
-    "y_coordinate": -9,
-    "player_id": 37,
-    "Username": "user37",
-    "level": 85,
-    "active_status": false,
-    "inventory": [
-      { "item_id": 1, "type_item": "weapon", "item_name": "iron_sword", "stats": { "damage": 6, "durability": 250 } }
-    ]
-  },
-
-  {
-    "map_id": 38,
-    "map_name": "Vienna",
-    "region": "west",
-    "x_coordinate": 48,
-    "y_coordinate": 16,
-    "player_id": 38,
-    "Username": "user38",
-    "level": 46,
-    "active_status": true,
-    "inventory": [
-      { "item_id": 1, "type_item": "material", "item_name": "redstone", "stats": { "stack_size": 64, "renewable": true } }
-    ]
-  },
-
-  {
-    "map_id": 39,
-    "map_name": "Prague",
-    "region": "west",
-    "x_coordinate": 50,
-    "y_coordinate": 14,
-    "player_id": 39,
-    "Username": "user39",
-    "level": 31,
-    "active_status": true,
-    "inventory": [
-      { "item_id": 1, "type_item": "food", "item_name": "pumpkin_pie", "stats": { "effect": "heal", "duration": 8 } }
-    ]
-  },
-
-  {
-    "map_id": 40,
-    "map_name": "Warsaw",
-    "region": "west",
-    "x_coordinate": 52,
-    "y_coordinate": 21,
-    "player_id": 40,
-    "Username": "user40",
-    "level": 78,
-    "active_status": false,
-    "inventory": [
-      { "item_id": 1, "type_item": "weapon", "item_name": "diamond_sword", "stats": { "damage": 7, "durability": 1561 } }
-    ]
-  },
-
-  {
-    "map_id": 41,
-    "map_name": "Budapest",
-    "region": "west",
-    "x_coordinate": 47,
-    "y_coordinate": 19,
-    "player_id": 41,
-    "Username": "user41",
-    "level": 40,
-    "active_status": true,
+    "username": "NoobMaster69",
+    "email": "noob@nexus.com",
+    "password_hash": "pass_006",
+    "current_level": 1,
+    "max_level_reached": 1,
     "inventory": []
   },
-
   {
-    "map_id": 42,
-    "map_name": "Kiev",
-    "region": "east",
-    "x_coordinate": 50,
-    "y_coordinate": 30,
-    "player_id": 42,
-    "Username": "user42",
-    "level": 92,
-    "active_status": true,
-    "inventory": []
+    "username": "Jaina_Proud",
+    "email": "jaina@nexus.com",
+    "password_hash": "ice_771",
+    "current_level": 5,
+    "max_level_reached": 6,
+    "inventory": [
+      { "item_id": "staff_02", "name": "B�culo de Escarcha", "type": "weapon", "stats": { "magic": 30, "freeze": 5 } },
+      { "item_id": "key_04", "name": "Llave de la Compasi�n", "type": "key", "stats": { "fragment": 4 } }
+    ]
   },
-
   {
-    "map_id": 43,
-    "map_name": "Bucharest",
-    "region": "east",
-    "x_coordinate": 44,
-    "y_coordinate": 26,
-    "player_id": 43,
-    "Username": "user43",
-    "level": 14,
-    "active_status": false,
-    "inventory": []
+    "username": "Garen_Justicia",
+    "email": "garen@nexus.com",
+    "password_hash": "demacia_1",
+    "current_level": 2,
+    "max_level_reached": 2,
+    "inventory": [
+      { "item_id": "armor_05", "name": "Pechera de Acero", "type": "armor", "stats": { "def": 40 } }
+    ]
   },
-
   {
-    "map_id": 44,
-    "map_name": "Eloy Alfaro",
-    "region": "north",
-    "x_coordinate": 101,
-    "y_coordinate": 262,
-    "player_id": 44,
-    "Username": "dfoulger3",
-    "level": 21,
-    "active_status": false,
-    "inventory": []
+    "username": "Sylvanas_Wind",
+    "email": "banshee@nexus.com",
+    "password_hash": "undead_2",
+    "current_level": 8,
+    "max_level_reached": 9,
+    "inventory": [
+      { "item_id": "bow_09", "name": "Arco de Almas", "type": "weapon", "stats": { "atk": 50 } },
+      { "item_id": "key_08", "name": "Llave de la Biblioteca", "type": "key", "stats": { "fragment": 8 } }
+    ]
   },
-
   {
-    "map_id": 45,
-    "map_name": "Guanxi",
-    "region": "south",
-    "x_coordinate": -44,
-    "y_coordinate": 287,
-    "player_id": 45,
-    "Username": "jkinson4",
-    "level": 5,
-    "active_status": true,
-    "inventory": []
+    "username": "Pepin_El_Breve",
+    "email": "pepin@nexus.com",
+    "password_hash": "hobbit_3",
+    "current_level": 1,
+    "max_level_reached": 1,
+    "inventory": [
+      { "item_id": "food_01", "name": "Manzana Roja", "type": "consumable", "stats": { "heal": 5 } }
+    ]
   },
-
   {
-    "map_id": 46,
-    "map_name": "Kang",
-    "region": "america",
-    "x_coordinate": 130,
-    "y_coordinate": 35,
-    "player_id": 46,
-    "Username": "kketchell5",
-    "level": 46,
-    "active_status": false,
-    "inventory": []
+    "username": "Dante_Inferno",
+    "email": "dante@nexus.com",
+    "password_hash": "devil_4",
+    "current_level": 10,
+    "max_level_reached": 10,
+    "inventory": [
+      { "item_id": "sword_99", "name": "Rebeli�n", "type": "sword", "stats": { "style": 100 } },
+      { "item_id": "victory_emblem", "name": "V�nculo Restaurado", "type": "relic", "stats": { "power": "max" } }
+    ]
   },
-
   {
-    "map_id": 47,
-    "map_name": "Gaopeng",
-    "region": "east",
-    "x_coordinate": 129,
-    "y_coordinate": 215,
-    "player_id": 47,
-    "Username": "user47",
-    "level": 53,
-    "active_status": true,
-    "inventory": []
+    "username": "Link_Hylia",
+    "email": "link@nexus.com",
+    "password_hash": "zelda_5",
+    "current_level": 4,
+    "max_level_reached": 7,
+    "inventory": [
+      { "item_id": "shield_09", "name": "Escudo Hyliano", "type": "shield", "stats": { "durability": 500 } },
+      { "item_id": "key_06", "name": "Llave de la Forja", "type": "key", "stats": { "fragment": 6 } }
+    ]
   },
-
   {
-    "map_id": 48,
-    "map_name": "Shuangpu",
-    "region": "asia",
-    "x_coordinate": -75,
-    "y_coordinate": 19,
-    "player_id": 48,
-    "Username": "user48",
-    "level": 81,
-    "active_status": true,
-    "inventory": []
+    "username": "Kratos_Dad",
+    "email": "boy@nexus.com",
+    "password_hash": "ghost_6",
+    "current_level": 6,
+    "max_level_reached": 6,
+    "inventory": [
+      { "item_id": "axe_05", "name": "Hacha Leviat�n", "type": "weapon", "stats": { "ice": 80 } }
+    ]
   },
-
   {
-    "map_id": 49,
-    "map_name": "Lautaro",
-    "region": "south",
-    "x_coordinate": 265,
-    "y_coordinate": -62,
-    "player_id": 49,
-    "Username": "user49",
-    "level": 28,
-    "active_status": true,
-    "inventory": []
+    "username": "Yennefer_Veng",
+    "email": "yen@nexus.com",
+    "password_hash": "lilac_7",
+    "current_level": 9,
+    "max_level_reached": 9,
+    "inventory": [
+      { "item_id": "amulet_01", "name": "Obsidiana", "type": "accessory", "stats": { "magic_boost": 40 } }
+    ]
   },
-
   {
-    "map_id": 50,
-    "map_name": "Nazir Town",
-    "region": "south",
-    "x_coordinate": 97,
-    "y_coordinate": -32,
-    "player_id": 50,
-    "Username": "user50",
-    "level": 90,
-    "active_status": false,
-    "inventory": []
+    "username": "Aragorn_King",
+    "email": "strider@nexus.com",
+    "password_hash": "ranger_8",
+    "current_level": 3,
+    "max_level_reached": 5,
+    "inventory": [
+      { "item_id": "sword_broken", "name": "Narsil Rota", "type": "weapon", "stats": { "damage": 2 } }
+    ]
+  },
+  {
+    "username": "Aerith_Flower",
+    "email": "aerith@nexus.com",
+    "password_hash": "materia_9",
+    "current_level": 1,
+    "max_level_reached": 2,
+    "inventory": [
+      { "item_id": "flower_01", "name": "Lirio Blanco", "type": "misc", "stats": { "hope": 100 } }
+    ]
+  },
+  {
+    "username": "Geralt_Rivia",
+    "email": "geralt@nexus.com",
+    "password_hash": "wolf_10",
+    "current_level": 7,
+    "max_level_reached": 8,
+    "inventory": [
+      { "item_id": "potion_09", "name": "Extracto de Rayo", "type": "potion", "stats": { "atk": 20 } },
+      { "item_id": "key_07", "name": "Llave del Pantano", "type": "key", "stats": { "fragment": 7 } }
+    ]
+  },
+  {
+    "username": "Lara_Croft",
+    "email": "lara@nexus.com",
+    "password_hash": "tomb_11",
+    "current_level": 5,
+    "max_level_reached": 5,
+    "inventory": [
+      { "item_id": "torch_01", "name": "Antorcha Eterna", "type": "tool", "stats": { "light": 100 } }
+    ]
+  },
+  {
+    "username": "Ezreal_Museum",
+    "email": "ez@nexus.com",
+    "password_hash": "gauntlet_12",
+    "current_level": 2,
+    "max_level_reached": 4,
+    "inventory": [
+      { "item_id": "gauntlet_01", "name": "Guantelete M�stico", "type": "weapon", "stats": { "magic_damage": 15 } }
+    ]
+  },
+  {
+    "username": "Arthas_DK",
+    "email": "arthas@nexus.com",
+    "password_hash": "frost_13",
+    "current_level": 9,
+    "max_level_reached": 10,
+    "inventory": [
+      { "item_id": "sword_frost", "name": "Agon�a de Escarcha", "type": "sword", "stats": { "corruption": 100 } }
+    ]
+  },
+  {
+    "username": "Frodo_B",
+    "email": "ring@nexus.com",
+    "password_hash": "precious_14",
+    "current_level": 1,
+    "max_level_reached": 10,
+    "inventory": [
+      { "item_id": "ring_01", "name": "El Anillo �nico", "type": "relic", "stats": { "invisibility": 100 } }
+    ]
+  },
+  {
+    "username": "Jaina_Proud",
+    "email": "jaina@nexus.com",
+    "password_hash": "ice_771",
+    "current_level": 5,
+    "max_level_reached": 6,
+    "inventory": [
+      { "item_id": "staff_02", "name": "B�culo de Escarcha", "type": "weapon", "stats": { "magic": 30, "freeze": 5 } },
+      { "item_id": "key_04", "name": "Llave de la Compasi�n", "type": "key", "stats": { "fragment": 4 } }
+    ]
+  },
+  {
+    "username": "Garen_Justicia",
+    "email": "garen@nexus.com",
+    "password_hash": "demacia_1",
+    "current_level": 2,
+    "max_level_reached": 2,
+    "inventory": [
+      { "item_id": "armor_05", "name": "Pechera de Acero", "type": "armor", "stats": { "def": 40 } }
+    ]
+  },
+  {
+    "username": "Sylvanas_Wind",
+    "email": "banshee@nexus.com",
+    "password_hash": "undead_2",
+    "current_level": 8,
+    "max_level_reached": 9,
+    "inventory": [
+      { "item_id": "bow_09", "name": "Arco de Almas", "type": "weapon", "stats": { "atk": 50 } },
+      { "item_id": "key_08", "name": "Llave de la Biblioteca", "type": "key", "stats": { "fragment": 8 } }
+    ]
+  },
+  {
+    "username": "Pepin_El_Breve",
+    "email": "pepin@nexus.com",
+    "password_hash": "hobbit_3",
+    "current_level": 1,
+    "max_level_reached": 1,
+    "inventory": [
+      { "item_id": "food_01", "name": "Manzana Roja", "type": "consumable", "stats": { "heal": 5 } }
+    ]
+  },
+  {
+    "username": "Dante_Inferno",
+    "email": "dante@nexus.com",
+    "password_hash": "devil_4",
+    "current_level": 10,
+    "max_level_reached": 10,
+    "inventory": [
+      { "item_id": "sword_99", "name": "Rebeli�n", "type": "sword", "stats": { "style": 100 } },
+      { "item_id": "victory_emblem", "name": "V�nculo Restaurado", "type": "relic", "stats": { "power": "max" } }
+    ]
+  },
+  {
+    "username": "Link_Hylia",
+    "email": "link@nexus.com",
+    "password_hash": "zelda_5",
+    "current_level": 4,
+    "max_level_reached": 7,
+    "inventory": [
+      { "item_id": "shield_09", "name": "Escudo Hyliano", "type": "shield", "stats": { "durability": 500 } },
+      { "item_id": "key_06", "name": "Llave de la Forja", "type": "key", "stats": { "fragment": 6 } }
+    ]
+  },
+  {
+    "username": "Kratos_Dad",
+    "email": "boy@nexus.com",
+    "password_hash": "ghost_6",
+    "current_level": 6,
+    "max_level_reached": 6,
+    "inventory": [
+      { "item_id": "axe_05", "name": "Hacha Leviat�n", "type": "weapon", "stats": { "ice": 80 } }
+    ]
+  },
+  {
+    "username": "Yennefer_Veng",
+    "email": "yen@nexus.com",
+    "password_hash": "lilac_7",
+    "current_level": 9,
+    "max_level_reached": 9,
+    "inventory": [
+      { "item_id": "amulet_01", "name": "Obsidiana", "type": "accessory", "stats": { "magic_boost": 40 } }
+    ]
+  },
+  {
+    "username": "Aragorn_King",
+    "email": "strider@nexus.com",
+    "password_hash": "ranger_8",
+    "current_level": 3,
+    "max_level_reached": 5,
+    "inventory": [
+      { "item_id": "sword_broken", "name": "Narsil Rota", "type": "weapon", "stats": { "damage": 2 } }
+    ]
+  },
+  {
+    "username": "Aerith_Flower",
+    "email": "aerith@nexus.com",
+    "password_hash": "materia_9",
+    "current_level": 1,
+    "max_level_reached": 2,
+    "inventory": [
+      { "item_id": "flower_01", "name": "Lirio Blanco", "type": "misc", "stats": { "hope": 100 } }
+    ]
+  },
+  {
+    "username": "Geralt_Rivia",
+    "email": "geralt@nexus.com",
+    "password_hash": "wolf_10",
+    "current_level": 7,
+    "max_level_reached": 8,
+    "inventory": [
+      { "item_id": "potion_09", "name": "Extracto de Rayo", "type": "potion", "stats": { "atk": 20 } },
+      { "item_id": "key_07", "name": "Llave del Pantano", "type": "key", "stats": { "fragment": 7 } }
+    ]
+  },
+  {
+    "username": "Lara_Croft",
+    "email": "lara@nexus.com",
+    "password_hash": "tomb_11",
+    "current_level": 5,
+    "max_level_reached": 5,
+    "inventory": [
+      { "item_id": "torch_01", "name": "Antorcha Eterna", "type": "tool", "stats": { "light": 100 } }
+    ]
+  },
+  {
+    "username": "Ezreal_Museum",
+    "email": "ez@nexus.com",
+    "password_hash": "gauntlet_12",
+    "current_level": 2,
+    "max_level_reached": 4,
+    "inventory": [
+      { "item_id": "gauntlet_01", "name": "Guantelete M�stico", "type": "weapon", "stats": { "magic_damage": 15 } }
+    ]
+  },
+  {
+    "username": "Arthas_DK",
+    "email": "arthas@nexus.com",
+    "password_hash": "frost_13",
+    "current_level": 9,
+    "max_level_reached": 10,
+    "inventory": [
+      { "item_id": "sword_frost", "name": "Agon�a de Escarcha", "type": "sword", "stats": { "corruption": 100 } }
+    ]
+  },
+  {
+    "username": "Frodo_B",
+    "email": "ring@nexus.com",
+    "password_hash": "precious_14",
+    "current_level": 1,
+    "max_level_reached": 10,
+    "inventory": [
+      { "item_id": "ring_01", "name": "El Anillo �nico", "type": "relic", "stats": { "invisibility": 100 } }
+    ]
+  },
+  {
+    "username": "Alucard_Dhampir",
+    "email": "alucard@nexus.com",
+    "password_hash": "wolf_77",
+    "current_level": 8,
+    "max_level_reached": 8,
+    "inventory": [
+      { "item_id": "cloak_01", "name": "Capa del Alquimista", "type": "armor", "stats": { "evasion": 20 } },
+      { "item_id": "key_08", "name": "Llave de la Biblioteca", "type": "key", "stats": { "fragment": 8 } }
+    ]
+  },
+  {
+    "username": "Samus_Aran",
+    "email": "metroid@nexus.com",
+    "password_hash": "suit_88",
+    "current_level": 6,
+    "max_level_reached": 7,
+    "inventory": [
+      { "item_id": "missile_01", "name": "Tanque de Misiles", "type": "tool", "stats": { "ammo": 5 } }
+    ]
+  },
+  {
+    "username": "Ezio_Auditore",
+    "email": "assassin@nexus.com",
+    "password_hash": "requiescat",
+    "current_level": 5,
+    "max_level_reached": 5,
+    "inventory": [
+      { "item_id": "hidden_blade", "name": "Hoja Oculta", "type": "weapon", "stats": { "stealth_dmg": 50 } }
+    ]
+  },
+  {
+    "username": "Ellie_Williams",
+    "email": "survivor@nexus.com",
+    "password_hash": "firefly_1",
+    "current_level": 3,
+    "max_level_reached": 4,
+    "inventory": [
+      { "item_id": "brick_01", "name": "Ladrillo de Supervivencia", "type": "misc", "stats": { "stun": 5 } }
+    ]
+  },
+  {
+    "username": "Sora_Key",
+    "email": "heart@nexus.com",
+    "password_hash": "kingdom_2",
+    "current_level": 1,
+    "max_level_reached": 1,
+    "inventory": [
+      { "item_id": "keyblade_01", "name": "Cadena del Reino", "type": "weapon", "stats": { "magic": 10 } }
+    ]
+  },
+  {
+    "username": "Cloud_Strife",
+    "email": "soldier@nexus.com",
+    "password_hash": "buster_sword",
+    "current_level": 7,
+    "max_level_reached": 9,
+    "inventory": [
+      { "item_id": "materia_fire", "name": "Materia de Fuego", "type": "accessory", "stats": { "fire_dmg": 25 } }
+    ]
+  },
+  {
+    "username": "Master_Chief",
+    "email": "spartan@nexus.com",
+    "password_hash": "cortana_117",
+    "current_level": 10,
+    "max_level_reached": 10,
+    "inventory": [
+      { "item_id": "energy_sword", "name": "Espada de Energ�a", "type": "weapon", "stats": { "plasma": 100 } }
+    ]
+  },
+  {
+    "username": "V_Cyberpunk",
+    "email": "nightcity@nexus.com",
+    "password_hash": "silverhand",
+    "current_level": 4,
+    "max_level_reached": 6,
+    "inventory": [
+      { "item_id": "chip_01", "name": "Reliquia Biochip", "type": "relic", "stats": { "memory": 100 } }
+    ]
+  },
+  {
+    "username": "Kassandra_Misthios",
+    "email": "eagle@nexus.com",
+    "password_hash": "sparta_01",
+    "current_level": 5,
+    "max_level_reached": 8,
+    "inventory": [
+      { "item_id": "spear_leonidas", "name": "Lanza de Le�nidas", "type": "weapon", "stats": { "adrenaline": 30 } }
+    ]
+  },
+  {
+    "username": "Doom_Slayer",
+    "email": "rip_tear@nexus.com",
+    "password_hash": "unmaykr",
+    "current_level": 10,
+    "max_level_reached": 10,
+    "inventory": [
+      { "item_id": "crucible", "name": "El Crisol", "type": "weapon", "stats": { "fury": 999 } }
+    ]
+  },
+  {
+    "username": "Luffy_King",
+    "email": "onepiece@nexus.com",
+    "password_hash": "nika_5",
+    "current_level": 2,
+    "max_level_reached": 5,
+    "inventory": [
+      { "item_id": "hat_01", "name": "Sombrero de Paja", "type": "armor", "stats": { "will": 100 } }
+    ]
+  },
+  {
+    "username": "Triss_Merigold",
+    "email": "marigold@nexus.com",
+    "password_hash": "sorceress_1",
+    "current_level": 6,
+    "max_level_reached": 7,
+    "inventory": [
+      { "item_id": "potion_exp", "name": "Poci�n de Experiencia", "type": "consumable", "stats": { "exp_boost": 50 } }
+    ]
+  },
+  {
+    "username": "Arthur_Morgan",
+    "email": "outlaw@nexus.com",
+    "password_hash": "tahiti_plan",
+    "current_level": 3,
+    "max_level_reached": 3,
+    "inventory": [
+      { "item_id": "revolver_01", "name": "Rev�lver Gastado", "type": "weapon", "stats": { "accuracy": 15 } }
+    ]
+  },
+  {
+    "username": "Mercy_Heal",
+    "email": "valkyrie@nexus.com",
+    "password_hash": "heroes_never_die",
+    "current_level": 1,
+    "max_level_reached": 4,
+    "inventory": [
+      { "item_id": "staff_heal", "name": "Caduceo Real", "type": "weapon", "stats": { "heal_per_sec": 40 } }
+    ]
+  },
+  {
+    "username": "Jin_Sakai",
+    "email": "ghost_tsushima@nexus.com",
+    "password_hash": "honor_died",
+    "current_level": 8,
+    "max_level_reached": 8,
+    "inventory": [
+      { "item_id": "katana_sakai", "name": "Katana del Clan Sakai", "type": "weapon", "stats": { "sharpness": 60 } }
+    ]
+  },
+  {
+    "username": "Snake_Solid",
+    "email": "foxhound@nexus.com",
+    "password_hash": "nanomachines",
+    "current_level": 2,
+    "max_level_reached": 6,
+    "inventory": [
+      { "item_id": "box_01", "name": "Caja de Cart�n", "type": "tool", "stats": { "invisibility": 80 } }
+    ]
+  },
+  {
+    "username": "Bayonetta_Umbra",
+    "email": "witch@nexus.com",
+    "password_hash": "climax",
+    "current_level": 9,
+    "max_level_reached": 9,
+    "inventory": [
+      { "item_id": "guns_01", "name": "Love is Blue", "type": "weapon", "stats": { "fire_rate": 90 } }
+    ]
+  },
+  {
+    "username": "Sephiroth_One",
+    "email": "angel@nexus.com",
+    "password_hash": "jenova",
+    "current_level": 10,
+    "max_level_reached": 10,
+    "inventory": [
+      { "item_id": "masamune", "name": "Masamune", "type": "sword", "stats": { "reach": 200 } }
+    ]
+  },
+  {
+    "username": "Aloy_Nora",
+    "email": "focus@nexus.com",
+    "password_hash": "zero_dawn",
+    "current_level": 4,
+    "max_level_reached": 5,
+    "inventory": [
+      { "item_id": "bow_hunter", "name": "Arco de Cazadora", "type": "weapon", "stats": { "pierce": 25 } }
+    ]
+  },
+  {
+    "username": "Atreus_Loki",
+    "email": "boy2@nexus.com",
+    "password_hash": "giant_blood",
+    "current_level": 3,
+    "max_level_reached": 6,
+    "inventory": [
+      { "item_id": "bow_magic", "name": "Arco de Garra", "type": "weapon", "stats": { "stun": 40 } }
+    ]
   }
 ]
