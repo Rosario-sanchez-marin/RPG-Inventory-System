@@ -1,0 +1,57 @@
+v{
+  "firstName": "Ulises",
+  "lastName": "Rojas Gonzalez",
+  "birthdate": "12-30-2008",
+  "email": "ulisesrojasgonzalez352@gmail.com.",
+  "address": {
+    "street": "Street Jazmin",
+    "City": "Cordoba",
+    "state": "Veracruz"
+  },
+  "gender": "m",
+  "occupation": "Student",
+  "hobbies": [
+    "Listen to music",
+    "play soccerball",
+    "watch TV"
+  ],
+  "friends": [
+    {
+      "firstName": "Alejandro",
+      "lastName": "Palacios ",
+      "birthdate": "01-7-2007",
+      "email": "",
+      "City": "Cordoba",
+      "hobbies": [
+        "soccerball",
+        "voleyball",
+        "listen to music",
+        "party"
+      ]
+    },
+    {
+      "firstName": "Leonardo ",
+      "lastName": "Macias",
+      "birthdate": "06-03-2008",
+      "email": "",
+      "City": "Cordoba",
+      "hobbies": [
+        "soccerball",
+        "party",
+        "sleep"
+      ]
+    },
+    {
+      "firstName": "Gael",
+      "lastName": "Arciniega",
+      "birthdate": "10-09-2009",
+      "email": "",
+      "City": "Cordoba",
+      "hobbies": [
+        "play soccer",
+        "party",
+        "ranch"
+      ]
+    }
+  ]
+}
