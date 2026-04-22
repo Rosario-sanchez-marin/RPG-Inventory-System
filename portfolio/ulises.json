@@ -18,9 +18,9 @@
   "friends": [
     {
       "firstName": "Alejandro",
-      "lastName": "Palacios ",
+      "lastName": "Palacios Rivera",
       "birthdate": "01-7-2007",
-      "email": "",
+      "email": "lexito0346@gmail.com",
       "City": "Cordoba",
       "hobbies": [
         "soccerball",
@@ -30,27 +30,26 @@
       ]
     },
     {
-      "firstName": "Leonardo ",
-      "lastName": "Macias",
-      "birthdate": "06-03-2008",
-      "email": "",
+      "firstName": "Nayeli Gonzalez Cervantes",
+      "birthdate": "06-03-1998",
+      "email": "nayeglz8937@gmail.com",
       "City": "Cordoba",
       "hobbies": [
-        "soccerball",
+        "volleyball",
         "party",
-        "sleep"
+        "work"
       ]
     },
     {
-      "firstName": "Gael",
-      "lastName": "Arciniega",
-      "birthdate": "10-09-2009",
-      "email": "",
+      "firstName": "Pablo",
+      "lastName": "Rojas González",
+      "birthdate": "23-11-2005",
+      "email": "pablitorojasgonzalez@gmail.com",
       "City": "Cordoba",
       "hobbies": [
         "play soccer",
-        "party",
-        "ranch"
+        "sleep",
+        "watch tv"
       ]
     }
   ]
