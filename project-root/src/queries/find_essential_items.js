@@ -3,7 +3,7 @@
 // Goal: Find high-level players and list their loot
 
 const highLevelQuery = { 
-    // YOUR FILTER HERE
+    // filter
 };
 
 const inventoryProjection = { 
