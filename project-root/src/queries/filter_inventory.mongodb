@@ -1,1 +1,15 @@
+// Database: rpg_game
+// Collection: players
 
+const advancedQuery = {
+  // Level must be greater than 20
+  "level": { "$gt": 20 },
+  
+  // Player name must be one of these specific names
+  "playerName": { "$in": ["Aragorn", "Legolas", "Gimli"] },
+  
+  // Find items where the type is NOT 'cursed'
+  "inventory.type": { "$ne": "cursed" }
+};
+
+db.players.find(advancedQuery);
