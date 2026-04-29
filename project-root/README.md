@@ -5,6 +5,7 @@ As an RPG player, I want to store different types of items in my inventory (swor
 
 **Team members**
 - The Data Modeler (Arquitecto JSON). Sánchez marín Maria del Rosario 
-- The Query Developer (Constructor MQL). Virgen Juarez Camila 
+- The Query Developer (Constructor MQL). Rojas Gonzales Ulisses  
 - The Integration Specialist (Configurador del Entorno). Valiente Marin Yoanna 
-- The Data Seeder / QA (Generador de Caos). Velazquez Reyes Axel Juda 
+- The Data Seeder / QA (Generador de Caos). Velazquez Reyes Axel Juda
+- Scrum Master / (un líder al servicio). Virgen Juárez Camila 
