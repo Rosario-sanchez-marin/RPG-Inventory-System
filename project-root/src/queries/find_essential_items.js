@@ -7,7 +7,7 @@ const highLevelQuery = {
 };
 
 const inventoryProjection = { 
-    // YOUR PROJECTION HERE
+    // projection
 };
 
 // Execution hint for MongoDB Shell
